@@ -17,7 +17,7 @@
                         "state_root": "0xd8c577816b629241676502d0461e4eae42a375461314d64484f35f4228da23d6",
                         "beefy_root": "0xf5df0c11416d43c55b43e096572d450b7780ed0fd7b540f26c8ded8e0d41e183",
                         "lookup_anchor": "0x16bda47e5a68daf53c39ddee8af4ecaced7e87f3f0ac9da5a6f4f9e41350d319",
-                        "lookup_anchor_slot": 6,
+                        "lookup_anchor_slot": 10,
                         "lookup_anchor_state_root": "0x833233f94a4fe86915a06f463953199b02d051af90b62da1a7ccb436550e2ec0",
                         "prerequisites": []
                     },
@@ -54,15 +54,15 @@
                 "signatures": [
                     {
                         "validator_index": 1,
-                        "signature": "0x00a7703890f5087827c9e366f33abd4d022fcaf326a4864da770fc099133eed4a2f048ecce7c997bcea9870be2c0003813b696bdd1f644c0734f2976dc284906"
+                        "signature": "0x844cafeeac9b643a0d0730bec318970ea69cfc82f83ea36b2e165a796a27019eee3ff87f42ba028ee045fd79297393197d153fb4b05b993733a880fb81440a0d"
                     },
                     {
                         "validator_index": 4,
-                        "signature": "0xdc18fa187deb8dc9ffde31905cd645f3173e66fee41e94c9cbe6856146bf16be0ffdca522662701a961b5636394107ea76ca361ebf5012066329ed6140c72403"
+                        "signature": "0xbe07e15a831b78e63572fca6f4d883b479209b9db6d9fd11423875a3869084c853f69bb3080c4ee2b3f3cda577bd6bdd9f704a2812f60d98b656cae834fb360f"
                     },
                     {
                         "validator_index": 5,
-                        "signature": "0x9b4fa8cf0ac3c5fe30a8fed4ffdb7f1e5551be061f10817e802cfd56b8bfc4d8ab154e7fe8fffdb1624d9a83fec5947f8abb3d2b910bbd04590453f55d092101"
+                        "signature": "0x0f6e56491fe02ce906cf2ebf9dc44991aec2e5755f10eb5c2f08e2aa086b789699ed3a6608a96691ac2e29310ba383830e9a451fedd8d9e07c8fe04b64c03b0e"
                     }
                 ]
             }

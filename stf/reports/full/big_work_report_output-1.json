@@ -17,7 +17,7 @@
                         "state_root": "0xb5462111962e9000c3822eb631e619bb091b2b5dac73816874c0243f392065fb",
                         "beefy_root": "0xc006121a8035c0600469b1b708c1ad794ac74b3dbebd9c494d3ca2a1659df705",
                         "lookup_anchor": "0x0537b8b8fc9dd52c40d02f2c960c184ae45c4d8c92946d551662ab45374f883d",
-                        "lookup_anchor_slot": 597,
+                        "lookup_anchor_slot": 601,
                         "lookup_anchor_state_root": "0x2831b9a7027ae89643aa9c534f52c20128885dce8028d4bf1a679e567a699e05",
                         "prerequisites": []
                     },
@@ -65,15 +65,15 @@
                 "signatures": [
                     {
                         "validator_index": 16,
-                        "signature": "0x2c048e873e1e5ae347c2a1b2c7064945e75171a64e9d7dd41d1080f14d1210686f8111710bb38ad04a0ebae7d9f2ad127dffa37c0bece7f009dee9612350b507"
+                        "signature": "0x60df6ef92076d454a5f019dcefc6ab04ec505157d6342826bee6e9da91e84bead1701702de650a5a331118d700f4bc9c482f3ecb8037c156c5a8a62488516c02"
                     },
                     {
                         "validator_index": 450,
-                        "signature": "0x334d9181a966e737a945dae84eeffd60288fe2207c257f2f28478ade3d645c803e85909ab726d385f2e1a15ccd95fc7dd3631fb570989619c8d2cd118a1a9506"
+                        "signature": "0xd0b58cd3ef564f0776d91867291abcbb199c2c4a9e6ebd747787d5b2a6e23ca554639349713db2278932d81459816a124fd06a5ac71e74bdfab34a5d2782bf02"
                     },
                     {
                         "validator_index": 1014,
-                        "signature": "0x0d934f6ad1900cb557091c7327eebd48fb7d6bba5077da41a7a645ff4fdcf156910d02c11d02f373bf89c8c8eb841f4870c6d49d6826c802afa8176c5780ea0b"
+                        "signature": "0x82451142cce02f907ffdf375daffc3ecfd432270c64cba74586e220065e58488675828001352d3e2626002b1113d38149cb603d0872c766af953649da59f2509"
                     }
                 ]
             }
@@ -17258,7 +17258,7 @@
                             "state_root": "0xb5462111962e9000c3822eb631e619bb091b2b5dac73816874c0243f392065fb",
                             "beefy_root": "0xc006121a8035c0600469b1b708c1ad794ac74b3dbebd9c494d3ca2a1659df705",
                             "lookup_anchor": "0x0537b8b8fc9dd52c40d02f2c960c184ae45c4d8c92946d551662ab45374f883d",
-                            "lookup_anchor_slot": 597,
+                            "lookup_anchor_slot": 601,
                             "lookup_anchor_state_root": "0x2831b9a7027ae89643aa9c534f52c20128885dce8028d4bf1a679e567a699e05",
                             "prerequisites": []
                         },
@@ -17306,15 +17306,15 @@
                     "signatures": [
                         {
                             "validator_index": 16,
-                            "signature": "0x2c048e873e1e5ae347c2a1b2c7064945e75171a64e9d7dd41d1080f14d1210686f8111710bb38ad04a0ebae7d9f2ad127dffa37c0bece7f009dee9612350b507"
+                            "signature": "0x60df6ef92076d454a5f019dcefc6ab04ec505157d6342826bee6e9da91e84bead1701702de650a5a331118d700f4bc9c482f3ecb8037c156c5a8a62488516c02"
                         },
                         {
                             "validator_index": 450,
-                            "signature": "0x334d9181a966e737a945dae84eeffd60288fe2207c257f2f28478ade3d645c803e85909ab726d385f2e1a15ccd95fc7dd3631fb570989619c8d2cd118a1a9506"
+                            "signature": "0xd0b58cd3ef564f0776d91867291abcbb199c2c4a9e6ebd747787d5b2a6e23ca554639349713db2278932d81459816a124fd06a5ac71e74bdfab34a5d2782bf02"
                         },
                         {
                             "validator_index": 1014,
-                            "signature": "0x0d934f6ad1900cb557091c7327eebd48fb7d6bba5077da41a7a645ff4fdcf156910d02c11d02f373bf89c8c8eb841f4870c6d49d6826c802afa8176c5780ea0b"
+                            "signature": "0x82451142cce02f907ffdf375daffc3ecfd432270c64cba74586e220065e58488675828001352d3e2626002b1113d38149cb603d0872c766af953649da59f2509"
                         }
                     ]
                 },

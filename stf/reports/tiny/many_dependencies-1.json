@@ -17,7 +17,7 @@
                         "state_root": "0xd8c577816b629241676502d0461e4eae42a375461314d64484f35f4228da23d6",
                         "beefy_root": "0xf5df0c11416d43c55b43e096572d450b7780ed0fd7b540f26c8ded8e0d41e183",
                         "lookup_anchor": "0x16bda47e5a68daf53c39ddee8af4ecaced7e87f3f0ac9da5a6f4f9e41350d319",
-                        "lookup_anchor_slot": 6,
+                        "lookup_anchor_slot": 10,
                         "lookup_anchor_state_root": "0x833233f94a4fe86915a06f463953199b02d051af90b62da1a7ccb436550e2ec0",
                         "prerequisites": [
                             "0x5220dbf60faabaa18462822016d409f00592c55a65a98d2dbedcad4a67f0ba26",
@@ -71,15 +71,15 @@
                 "signatures": [
                     {
                         "validator_index": 1,
-                        "signature": "0xcfad85f333d2126d2cc60065bacfa43e36fa9a1615925fe8560a47a33d650c087cd3afaaca26cd4381fd6c5dd540119078d6817a7c5d9d6f03538be209281c02"
+                        "signature": "0xd2ed1fc7700a59d133af275226202054c2e3367d6892d444eb544ed17b1f295444d4b0d46ab86fb6f3158e66bb832ae5ba6f79a18bf6100cb0fab7b1b0673b09"
                     },
                     {
                         "validator_index": 4,
-                        "signature": "0xe220ff7431da68d940c880e8a62cd6a07358eb8e5eb4330bbde1a960c32a79a5578529beb638cabe7ab5c02cd9777193b720d3433631b01685c016cf3e9b2f04"
+                        "signature": "0x430ff993096fa228c68239c7be9d8326ead26d1767ed46e0afd96e91249816e5598db37fe25a53adc512eb0906b80138fdf82a271f022fef0b389a445e94b007"
                     },
                     {
                         "validator_index": 5,
-                        "signature": "0x665108a4959b9a3b287c2ac97066cecb684c9c4f9f483a01238263193ac13ae6c72a8f16a204cd563088ec0d71d86aaf745a406a60a3f8bf4c27e8101b61a008"
+                        "signature": "0x601df1e682e0fd50d019483b7ac40c4b279aebbf0ac6c0fb308ef4e4cbd12895b553d9af945ae2db33b41d71c42b2256c60efe08e8272e6bb9ea6c9f7aa45706"
                     }
                 ]
             }
@@ -392,7 +392,7 @@
                             "state_root": "0xd8c577816b629241676502d0461e4eae42a375461314d64484f35f4228da23d6",
                             "beefy_root": "0xf5df0c11416d43c55b43e096572d450b7780ed0fd7b540f26c8ded8e0d41e183",
                             "lookup_anchor": "0x16bda47e5a68daf53c39ddee8af4ecaced7e87f3f0ac9da5a6f4f9e41350d319",
-                            "lookup_anchor_slot": 6,
+                            "lookup_anchor_slot": 10,
                             "lookup_anchor_state_root": "0x833233f94a4fe86915a06f463953199b02d051af90b62da1a7ccb436550e2ec0",
                             "prerequisites": [
                                 "0x5220dbf60faabaa18462822016d409f00592c55a65a98d2dbedcad4a67f0ba26",
@@ -446,15 +446,15 @@
                     "signatures": [
                         {
                             "validator_index": 1,
-                            "signature": "0xcfad85f333d2126d2cc60065bacfa43e36fa9a1615925fe8560a47a33d650c087cd3afaaca26cd4381fd6c5dd540119078d6817a7c5d9d6f03538be209281c02"
+                            "signature": "0xd2ed1fc7700a59d133af275226202054c2e3367d6892d444eb544ed17b1f295444d4b0d46ab86fb6f3158e66bb832ae5ba6f79a18bf6100cb0fab7b1b0673b09"
                         },
                         {
                             "validator_index": 4,
-                            "signature": "0xe220ff7431da68d940c880e8a62cd6a07358eb8e5eb4330bbde1a960c32a79a5578529beb638cabe7ab5c02cd9777193b720d3433631b01685c016cf3e9b2f04"
+                            "signature": "0x430ff993096fa228c68239c7be9d8326ead26d1767ed46e0afd96e91249816e5598db37fe25a53adc512eb0906b80138fdf82a271f022fef0b389a445e94b007"
                         },
                         {
                             "validator_index": 5,
-                            "signature": "0x665108a4959b9a3b287c2ac97066cecb684c9c4f9f483a01238263193ac13ae6c72a8f16a204cd563088ec0d71d86aaf745a406a60a3f8bf4c27e8101b61a008"
+                            "signature": "0x601df1e682e0fd50d019483b7ac40c4b279aebbf0ac6c0fb308ef4e4cbd12895b553d9af945ae2db33b41d71c42b2256c60efe08e8272e6bb9ea6c9f7aa45706"
                         }
                     ]
                 },

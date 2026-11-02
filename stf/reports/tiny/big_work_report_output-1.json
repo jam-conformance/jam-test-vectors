@@ -17,7 +17,7 @@
                         "state_root": "0xd8c577816b629241676502d0461e4eae42a375461314d64484f35f4228da23d6",
                         "beefy_root": "0xf5df0c11416d43c55b43e096572d450b7780ed0fd7b540f26c8ded8e0d41e183",
                         "lookup_anchor": "0x16bda47e5a68daf53c39ddee8af4ecaced7e87f3f0ac9da5a6f4f9e41350d319",
-                        "lookup_anchor_slot": 6,
+                        "lookup_anchor_slot": 10,
                         "lookup_anchor_state_root": "0x833233f94a4fe86915a06f463953199b02d051af90b62da1a7ccb436550e2ec0",
                         "prerequisites": []
                     },
@@ -65,15 +65,15 @@
                 "signatures": [
                     {
                         "validator_index": 1,
-                        "signature": "0x17ab2cfc16e5a2978f78b495904000ca5e013a989e2305149e2e163d6d182cd30ea020cf0e79b70bce020275aae3257d2edb26418b5386565808519e0a37e808"
+                        "signature": "0xeb1b46418b35682b2fd6b7926950ef6c954e3bf9a2d96c0f5b0ce9154702c9cf87693b4b168c36b871fdc79d67196bdf383e12e6716898a75858a16de6164c0e"
                     },
                     {
                         "validator_index": 4,
-                        "signature": "0x4fa5c8a785739732c74f65200d634209c5f90c9586024b8b3eec13fd143b0cf2bddd7d61ccf498db763573ae57e14f174c3738d343142adb0261d8031d60bd0a"
+                        "signature": "0x77b467e2a924315b21cf5427faeeb54669e710de8178e99edeb288504fc727ccabc25340c2f717c66bf82a9ae50a22299377eda3efac03a12bdb16104347ab0e"
                     },
                     {
                         "validator_index": 5,
-                        "signature": "0x54322ae4850b068f72d51fd9584a238dfefff5a83d5641a74f18ee2a3fa994d114d336c528c6f17079f7f2f378fc92c6b97cccbe060bdaadb57fa1c21b92130c"
+                        "signature": "0x01f1c7eaa5cdcfef44d933cc0824b82107a5a4fb888deddd0ac14a7cc8fecd522da013cc86923ee75436f1aa756f02f5363e495ffe58b30bec33350c702cc003"
                     }
                 ]
             }
@@ -341,7 +341,7 @@
                             "state_root": "0xd8c577816b629241676502d0461e4eae42a375461314d64484f35f4228da23d6",
                             "beefy_root": "0xf5df0c11416d43c55b43e096572d450b7780ed0fd7b540f26c8ded8e0d41e183",
                             "lookup_anchor": "0x16bda47e5a68daf53c39ddee8af4ecaced7e87f3f0ac9da5a6f4f9e41350d319",
-                            "lookup_anchor_slot": 6,
+                            "lookup_anchor_slot": 10,
                             "lookup_anchor_state_root": "0x833233f94a4fe86915a06f463953199b02d051af90b62da1a7ccb436550e2ec0",
                             "prerequisites": []
                         },
@@ -389,15 +389,15 @@
                     "signatures": [
                         {
                             "validator_index": 1,
-                            "signature": "0x17ab2cfc16e5a2978f78b495904000ca5e013a989e2305149e2e163d6d182cd30ea020cf0e79b70bce020275aae3257d2edb26418b5386565808519e0a37e808"
+                            "signature": "0xeb1b46418b35682b2fd6b7926950ef6c954e3bf9a2d96c0f5b0ce9154702c9cf87693b4b168c36b871fdc79d67196bdf383e12e6716898a75858a16de6164c0e"
                         },
                         {
                             "validator_index": 4,
-                            "signature": "0x4fa5c8a785739732c74f65200d634209c5f90c9586024b8b3eec13fd143b0cf2bddd7d61ccf498db763573ae57e14f174c3738d343142adb0261d8031d60bd0a"
+                            "signature": "0x77b467e2a924315b21cf5427faeeb54669e710de8178e99edeb288504fc727ccabc25340c2f717c66bf82a9ae50a22299377eda3efac03a12bdb16104347ab0e"
                         },
                         {
                             "validator_index": 5,
-                            "signature": "0x54322ae4850b068f72d51fd9584a238dfefff5a83d5641a74f18ee2a3fa994d114d336c528c6f17079f7f2f378fc92c6b97cccbe060bdaadb57fa1c21b92130c"
+                            "signature": "0x01f1c7eaa5cdcfef44d933cc0824b82107a5a4fb888deddd0ac14a7cc8fecd522da013cc86923ee75436f1aa756f02f5363e495ffe58b30bec33350c702cc003"
                         }
                     ]
                 },
