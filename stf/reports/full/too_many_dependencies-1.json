@@ -17,7 +17,7 @@
                         "state_root": "0xb5462111962e9000c3822eb631e619bb091b2b5dac73816874c0243f392065fb",
                         "beefy_root": "0xc006121a8035c0600469b1b708c1ad794ac74b3dbebd9c494d3ca2a1659df705",
                         "lookup_anchor": "0x0537b8b8fc9dd52c40d02f2c960c184ae45c4d8c92946d551662ab45374f883d",
-                        "lookup_anchor_slot": 597,
+                        "lookup_anchor_slot": 601,
                         "lookup_anchor_state_root": "0x2831b9a7027ae89643aa9c534f52c20128885dce8028d4bf1a679e567a699e05",
                         "prerequisites": [
                             "0x5220dbf60faabaa18462822016d409f00592c55a65a98d2dbedcad4a67f0ba26",
@@ -75,15 +75,15 @@
                 "signatures": [
                     {
                         "validator_index": 16,
-                        "signature": "0x5a765a033e8ec7bf29268d8ee6e9578eed340110ed2980321a9db8a1de298efa5c37b008b707dbb653b399e6d5b91ff9f913ac7a84f82632ce4996ebfc7f4f05"
+                        "signature": "0x1986a1b64be7b1d7e4ac9cc0634c1001a4e2c3de817b797b73062e03aaa9ea59f50ff1f4561edbe055bf9be3c6d286fba83e292e31558b7d0175728856ac890a"
                     },
                     {
                         "validator_index": 450,
-                        "signature": "0x72b67f61304eecee7f9f727247b3f68876ea41f7c1c0633c0fa2aa94fae25437d338e39b88148ef3080c6ac8c1b888217b61b96865ad7e869bb41bc35f21e203"
+                        "signature": "0x868ed3beb0f3f00aacbefb1310395000448a51211d0bec50c7c08297d6326f8f7a72a9e4e20c427cfbdd259faa04d9cbadcbc78c1be13d2f56d17dcc98ee4d08"
                     },
                     {
                         "validator_index": 1014,
-                        "signature": "0x97d74aea2621b1afbfef928f8066898269fbb51782677b834dda412d721a2462c4847fa7d82a78c50eff094e83a55117de1cd63719f698a3abfc22ccc767c306"
+                        "signature": "0x039e653d2a365244a079df1b224085cddd72345ab55ac9448de407a33732282d96041dadb7a337938445f8b10010f98106aff2ad90e58412ace55b60d9a7f60d"
                     }
                 ]
             }

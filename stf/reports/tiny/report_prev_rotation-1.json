@@ -17,7 +17,7 @@
                         "state_root": "0xd8c577816b629241676502d0461e4eae42a375461314d64484f35f4228da23d6",
                         "beefy_root": "0xf5df0c11416d43c55b43e096572d450b7780ed0fd7b540f26c8ded8e0d41e183",
                         "lookup_anchor": "0x16bda47e5a68daf53c39ddee8af4ecaced7e87f3f0ac9da5a6f4f9e41350d319",
-                        "lookup_anchor_slot": 6,
+                        "lookup_anchor_slot": 10,
                         "lookup_anchor_state_root": "0x833233f94a4fe86915a06f463953199b02d051af90b62da1a7ccb436550e2ec0",
                         "prerequisites": []
                     },
@@ -49,15 +49,15 @@
                 "signatures": [
                     {
                         "validator_index": 1,
-                        "signature": "0x389eda0d8a940767c966fb8a3de1dce24e86e3b909d3a00f6944eb6e9fcc1da0566bd4f55779e0964a9b6bfbcdd4228a929f677672b446a40a20ff36623cce0a"
+                        "signature": "0xe60a9cdc206e67f720a2f7c89a1e5f30fe1620757076ac4b0d0745552756f4119531822a35c52a4f8b1b3a443ee955bab696e2acc5e2138002cda357acfeaa08"
                     },
                     {
                         "validator_index": 2,
-                        "signature": "0xd2e6959c1036ceab0cde4ee33d36b76c96c28ef24af466c5d13a1556d833456651d4a2b7b04ac5c9b605fcae6f6aa601d8b848ec6f9735db0eec0960d511550c"
+                        "signature": "0xab937e9a349765d4cf2569807488cf6cee4078ad5cc0535b5648248e15d412786004f5741948fa907fd0bfb9056fa88b1be6fd054025c59b75e3ca3196f86c01"
                     },
                     {
                         "validator_index": 5,
-                        "signature": "0x80d7298a569506423262a05610e097e2ebea9c11ecc1de1a13da5eaea87f10ddf1d9ea182c3ad31adbc0c7125b84b35a192aaf6e680513a55a24bad77ffdc001"
+                        "signature": "0xbb47334fbf4f517f4720c630f797be8adc254e59b6aa4ca8989da5290fc39d4c325b0253ac6ddc010f35862decc02add9d983677eed19ca25c4c9de59a01260a"
                     }
                 ]
             }
@@ -325,7 +325,7 @@
                             "state_root": "0xd8c577816b629241676502d0461e4eae42a375461314d64484f35f4228da23d6",
                             "beefy_root": "0xf5df0c11416d43c55b43e096572d450b7780ed0fd7b540f26c8ded8e0d41e183",
                             "lookup_anchor": "0x16bda47e5a68daf53c39ddee8af4ecaced7e87f3f0ac9da5a6f4f9e41350d319",
-                            "lookup_anchor_slot": 6,
+                            "lookup_anchor_slot": 10,
                             "lookup_anchor_state_root": "0x833233f94a4fe86915a06f463953199b02d051af90b62da1a7ccb436550e2ec0",
                             "prerequisites": []
                         },
@@ -357,15 +357,15 @@
                     "signatures": [
                         {
                             "validator_index": 1,
-                            "signature": "0x389eda0d8a940767c966fb8a3de1dce24e86e3b909d3a00f6944eb6e9fcc1da0566bd4f55779e0964a9b6bfbcdd4228a929f677672b446a40a20ff36623cce0a"
+                            "signature": "0xe60a9cdc206e67f720a2f7c89a1e5f30fe1620757076ac4b0d0745552756f4119531822a35c52a4f8b1b3a443ee955bab696e2acc5e2138002cda357acfeaa08"
                         },
                         {
                             "validator_index": 2,
-                            "signature": "0xd2e6959c1036ceab0cde4ee33d36b76c96c28ef24af466c5d13a1556d833456651d4a2b7b04ac5c9b605fcae6f6aa601d8b848ec6f9735db0eec0960d511550c"
+                            "signature": "0xab937e9a349765d4cf2569807488cf6cee4078ad5cc0535b5648248e15d412786004f5741948fa907fd0bfb9056fa88b1be6fd054025c59b75e3ca3196f86c01"
                         },
                         {
                             "validator_index": 5,
-                            "signature": "0x80d7298a569506423262a05610e097e2ebea9c11ecc1de1a13da5eaea87f10ddf1d9ea182c3ad31adbc0c7125b84b35a192aaf6e680513a55a24bad77ffdc001"
+                            "signature": "0xbb47334fbf4f517f4720c630f797be8adc254e59b6aa4ca8989da5290fc39d4c325b0253ac6ddc010f35862decc02add9d983677eed19ca25c4c9de59a01260a"
                         }
                     ]
                 },

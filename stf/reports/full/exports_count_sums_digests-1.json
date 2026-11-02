@@ -17,7 +17,7 @@
                         "state_root": "0xb5462111962e9000c3822eb631e619bb091b2b5dac73816874c0243f392065fb",
                         "beefy_root": "0xc006121a8035c0600469b1b708c1ad794ac74b3dbebd9c494d3ca2a1659df705",
                         "lookup_anchor": "0x0537b8b8fc9dd52c40d02f2c960c184ae45c4d8c92946d551662ab45374f883d",
-                        "lookup_anchor_slot": 597,
+                        "lookup_anchor_slot": 601,
                         "lookup_anchor_state_root": "0x2831b9a7027ae89643aa9c534f52c20128885dce8028d4bf1a679e567a699e05",
                         "prerequisites": []
                     },
@@ -65,15 +65,15 @@
                 "signatures": [
                     {
                         "validator_index": 16,
-                        "signature": "0x65d0044e9048bb1ef4b675cbf17f406eb3d4dfdeaf1963c32505ddb1e5da794e9a76c9d198c7f5d2735637b568cea863eb875a5c66662aec2b053a8943586104"
+                        "signature": "0x462577cd9c67fefce01df6f2308f66a28f005a1bf464b9104feaee8de117526e0de68f3ff1220ce226e4d5f04b64e448f3fee2b7960646cc828c5741961d640e"
                     },
                     {
                         "validator_index": 450,
-                        "signature": "0xf11893457729605736e7cdef389fb6e843e2fcfe54c512da380b5e1deca1794496a2504f796fb1db7db32c989eae0e628dd81a4ecdb52b155afc3cd6e3964106"
+                        "signature": "0x649786b5bd6ff0684e39575d6c517ed878e09c1fa10b530fd73f4acf83a3744dd6b674124d19a091ef10926666c2f870cba9afe180a372e09c76c5828dd35603"
                     },
                     {
                         "validator_index": 1014,
-                        "signature": "0x1e2f1ed71efb9bd17cbec801096f8b2992e4ba4d1f7137afa34f139e4c51d8b38ff0c3b9fdd6d82efbed591150faa2848cf3137c2e58304a8db56a6a5ccdf705"
+                        "signature": "0xc4eac58925c99353f5cc8e4626368b5bdc6fab0629fae32bb11b376805bb095427ac0b86d15d1292c5ba9296309108d6c0601c5bf78ca8981fb710ab99193a06"
                     }
                 ]
             }
@@ -17258,7 +17258,7 @@
                             "state_root": "0xb5462111962e9000c3822eb631e619bb091b2b5dac73816874c0243f392065fb",
                             "beefy_root": "0xc006121a8035c0600469b1b708c1ad794ac74b3dbebd9c494d3ca2a1659df705",
                             "lookup_anchor": "0x0537b8b8fc9dd52c40d02f2c960c184ae45c4d8c92946d551662ab45374f883d",
-                            "lookup_anchor_slot": 597,
+                            "lookup_anchor_slot": 601,
                             "lookup_anchor_state_root": "0x2831b9a7027ae89643aa9c534f52c20128885dce8028d4bf1a679e567a699e05",
                             "prerequisites": []
                         },
@@ -17306,15 +17306,15 @@
                     "signatures": [
                         {
                             "validator_index": 16,
-                            "signature": "0x65d0044e9048bb1ef4b675cbf17f406eb3d4dfdeaf1963c32505ddb1e5da794e9a76c9d198c7f5d2735637b568cea863eb875a5c66662aec2b053a8943586104"
+                            "signature": "0x462577cd9c67fefce01df6f2308f66a28f005a1bf464b9104feaee8de117526e0de68f3ff1220ce226e4d5f04b64e448f3fee2b7960646cc828c5741961d640e"
                         },
                         {
                             "validator_index": 450,
-                            "signature": "0xf11893457729605736e7cdef389fb6e843e2fcfe54c512da380b5e1deca1794496a2504f796fb1db7db32c989eae0e628dd81a4ecdb52b155afc3cd6e3964106"
+                            "signature": "0x649786b5bd6ff0684e39575d6c517ed878e09c1fa10b530fd73f4acf83a3744dd6b674124d19a091ef10926666c2f870cba9afe180a372e09c76c5828dd35603"
                         },
                         {
                             "validator_index": 1014,
-                            "signature": "0x1e2f1ed71efb9bd17cbec801096f8b2992e4ba4d1f7137afa34f139e4c51d8b38ff0c3b9fdd6d82efbed591150faa2848cf3137c2e58304a8db56a6a5ccdf705"
+                            "signature": "0xc4eac58925c99353f5cc8e4626368b5bdc6fab0629fae32bb11b376805bb095427ac0b86d15d1292c5ba9296309108d6c0601c5bf78ca8981fb710ab99193a06"
                         }
                     ]
                 },
