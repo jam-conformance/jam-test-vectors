@@ -116,6 +116,9 @@ storage, together with the gas it consumed.
 - [transfer_for_live_service-1](./tiny/transfer_for_live_service-1.json) 🟢
 	- A transfer is made to a live service.
 	- The deferred transfer is delivered to its accumulate in the following round.
+- [service_reads_transfers_before_work_digests-1](./tiny/service_reads_transfers_before_work_digests-1.json) 🟢
+  - A transfer and a work digest for one service arrive in the same round. The service
+    accumulates the transfer first, so the work digest reads the value that the transfer stored.
 - [work_for_ejected_service-1](./tiny/work_for_ejected_service-1.json) 🟢
   - A work report X with with unsatisfied dependency Y is queued.
 - [work_for_ejected_service-2](./tiny/work_for_ejected_service-2.json) 🟢
@@ -165,6 +168,16 @@ storage, together with the gas it consumed.
     later round of the same block the registrar creates the id again. The endowment
     transfer fails. The new account gets the slot of the block as its last accumulation
     slot.
+- [supervisor_modification_discards_junior_results-1](./tiny/supervisor_modification_discards_junior_results-1.json) 🟢
+  - A supervisor and its junior both modify the junior in the same round (GP #539 `N`). The
+    storage writes and the yield of the junior are discarded, and its gas is still counted.
+    The change of the supervisor (`supervisor` host call on the junior) holds.
+- [supervisor_modification_discards_junior_results_control-1](./tiny/supervisor_modification_discards_junior_results_control-1.json) 🟢
+  - Same as above, but the supervisor modifies only its own account. Nothing is discarded.
+- [deferred_transfer_to_junior_is_delivered-1](./tiny/deferred_transfer_to_junior_is_delivered-1.json) 🟢
+  - A service transfers to itself and to its junior in one block. The transfer to the junior
+    waits for a round in which the supervisor does not accumulate (GP #539 `T`), and then it
+    arrives.
 - [designate_with_invalid_count-1](./tiny/designate_with_invalid_count-1.json) 🟢
   - `designate` host call with one key less than the minimum validators set size.
 - [designate_with_invalid_count-2](./tiny/designate_with_invalid_count-2.json) 🟢
