@@ -178,6 +178,19 @@ storage, together with the gas it consumed.
   - A service transfers to itself and to its junior in one block. The transfer to the junior
     waits for a round in which the supervisor does not accumulate (GP #539 `T`), and then it
     arrives.
+- [discarded_junior_keeps_provisions-1](./tiny/discarded_junior_keeps_provisions-1.json) 🟢
+  - A junior provides a preimage in the round in which its supervisor modifies it. The results
+    of the junior are discarded, but the preimage reaches the service which requested it
+    (GP #539 `N` keeps the provisions).
+- [discarded_junior_creates_no_service-1](./tiny/discarded_junior_creates_no_service-1.json) 🟢
+  - A junior, which is the registrar, creates service 5 with an endowment in the round in which
+    its supervisor modifies it. The new account and the endowment transfer are discarded with
+    the other results of the junior (GP #539 `N`).
+- [discarded_manager_privileges_revert-1](./tiny/discarded_manager_privileges_revert-1.json) 🟢
+  - The manager is a junior. In the round in which its supervisor modifies it, the manager
+    changes the assigner, the designator and the registrar, and the designator gives its role to
+    another service. The changes of the manager are discarded, and the change of the designator
+    applies (GP #539 `N` and `R`).
 - [designate_with_invalid_count-1](./tiny/designate_with_invalid_count-1.json) 🟢
   - `designate` host call with one key less than the minimum validators set size.
 - [designate_with_invalid_count-2](./tiny/designate_with_invalid_count-2.json) 🟢
