@@ -23,6 +23,10 @@
   host call at index 29. A service which is ejected and created again in one
   invocation keeps the new account (`recreate_ejected_service*`).
   (GP [#539](https://github.com/gavofyork/graypaper/pull/539))
+* Each field of `ValidatorActivityRecord` (`vals-curr-stats`,
+  `vals-last-stats`) is encoded as a variable-length natural instead of
+  4 fixed octets. `pre-images-size` is `U64`. All statistics vectors change.
+  (GP [#564](https://github.com/gavofyork/graypaper/pull/564))
 
 ## [0.8.0] - 10-09-2026
 

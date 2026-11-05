@@ -475,7 +475,7 @@ ValidatorActivityRecord ::= SEQUENCE {
     -- Number of pre-images provided
     pre-images  U32,
     -- Total size of provided pre-images in bytes
-    pre-images-size U32,
+    pre-images-size U64,
     -- Number of guarantees provided
     guarantees  U32,
     -- Number of assurances provided
