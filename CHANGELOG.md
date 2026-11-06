@@ -25,7 +25,7 @@
 * `AvailAssurance` does not contain the `anchor`. The signature binds the
   assurance to the parent hash. The assurances `ErrorCode` does not contain
   `bad-attestation-parent`: an assurance signed for another parent gives
-  `bad-signature`. The other codes keep their values.
+  `bad-signature`. The other codes move down by one, so they start from 0.
   (GP [#562](https://github.com/gavofyork/graypaper/pull/562))
 
 ## [0.8.0] - 10-09-2026
