@@ -20,6 +20,7 @@ IMPORTS
 max-blocks-history INTEGER ::= 8
 auth-pool-max-size INTEGER ::= 8
 auth-queue-size INTEGER::= 80
+max-preimages-count INTEGER ::= 256
 
 --------------------------------------------------------------------------------
 -- Simple Types
@@ -680,7 +681,7 @@ Preimage ::= SEQUENCE {
 }
 
 -- Extrinsic containing preimages
-PreimagesExtrinsic ::= SEQUENCE OF Preimage
+PreimagesExtrinsic ::= SEQUENCE (SIZE(0..max-preimages-count)) OF Preimage
 
 --------------------------------------------------------------------------------
 -- Assurances

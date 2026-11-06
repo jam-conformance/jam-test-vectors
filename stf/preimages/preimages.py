@@ -73,4 +73,5 @@ class PreimagesTestVector(StfTestVector):
     errno_map = {
         0: "preimage_unneeded",
         1: "preimages_not_sorted_unique",
+        2: "preimages_too_big",
     }

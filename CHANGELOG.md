@@ -27,6 +27,11 @@
   `bad-attestation-parent`: an assurance signed for another parent gives
   `bad-signature`. The other codes move down by one, so they start from 0.
   (GP [#562](https://github.com/gavofyork/graypaper/pull/562))
+* `PreimagesExtrinsic` holds at most 256 items (`max-preimages-count`), with
+  at most 2^25 octets of preimage data in total. New preimages `ErrorCode`
+  `preimages-too-big` (2) for the data limit. New preimages vector
+  `preimages_max_count-1` with 256 items. No vector exceeds the data limit.
+  (GP [#567](https://github.com/gavofyork/graypaper/pull/567))
 
 ## [0.8.0] - 10-09-2026
 
