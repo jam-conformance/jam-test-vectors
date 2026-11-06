@@ -690,9 +690,7 @@ PreimagesExtrinsic ::= SEQUENCE OF Preimage
 
 -- Assurance of data availability from a validator
 AvailAssurance ::= SEQUENCE {
-    -- The block to which this availability attestation corresponds
-    anchor HeaderHash,
-    -- The bitfield of whether any given core's reported package at anchor block
+    -- The bitfield of whether any given core's reported package at the parent block
     -- is helped made available by this validator.
     bitfield OCTET STRING (SIZE(avail-bitfield-bytes)),
     -- Index of the validator providing the assurance

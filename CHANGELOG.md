@@ -15,12 +15,18 @@
 * Bandersnatch VRF specification draft 35 (`ark-vrf` 0.6.0) instead of
   draft 29. The Bandersnatch keys of the trivial validators change, and so
   do the ring commitments, the padding point, the ticket signatures and the
-  ticket ids. All STF vectors with Bandersnatch keys change.
+  ticket ids. All STF vectors with Bandersnatch keys change, and so do the
+  epoch mark keys of the codec `header_0` and `block` vectors.
   (GP [#550](https://github.com/gavofyork/graypaper/pull/550))
 * Each field of `ValidatorActivityRecord` (`vals-curr-stats`,
   `vals-last-stats`) is encoded as a variable-length natural instead of
   4 fixed octets. `pre-images-size` is `U64`. All statistics vectors change.
   (GP [#564](https://github.com/gavofyork/graypaper/pull/564))
+* `AvailAssurance` does not contain the `anchor`. The signature binds the
+  assurance to the parent hash. The assurances `ErrorCode` does not contain
+  `bad-attestation-parent`: an assurance signed for another parent gives
+  `bad-signature`. The other codes keep their values.
+  (GP [#562](https://github.com/gavofyork/graypaper/pull/562))
 
 ## [0.8.0] - 10-09-2026
 

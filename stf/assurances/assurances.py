@@ -43,7 +43,6 @@ class AssurancesTestVector(StfTestVector):
     input_class = 'AssurancesInput'
     output_class = 'AssurancesOutput'
     errno_map = {
-        0: "bad_attestation_parent",
         1: "bad_validator_index",
         2: "core_not_engaged",
         3: "bad_signature",

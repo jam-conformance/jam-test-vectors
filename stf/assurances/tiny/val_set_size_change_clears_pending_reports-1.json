@@ -2,37 +2,31 @@
     "input": {
         "assurances": [
             {
-                "anchor": "0xd61a38a0f73beda90e8c1dfba731f65003742539f4260694f44e22cabef24a8e",
                 "bitfield": "0x01",
                 "validator_index": 0,
                 "signature": "0x4fc3b31cb8f37b3ce511726f27052586942dead89324312f410f5dc88b8554f02b4c544edf5f863b781fb5c86256dcd0e6ba34c6aa7bb92d21b62a03386a8a0a"
             },
             {
-                "anchor": "0xd61a38a0f73beda90e8c1dfba731f65003742539f4260694f44e22cabef24a8e",
                 "bitfield": "0x01",
                 "validator_index": 1,
                 "signature": "0x3b00faaf5fa05a49081d12083782786dc616ff80f81657884e6e87abeab4d485ec2ae549c779ba0bb9324e1ffa5bf3d5525347c5f26cb84097b78dc07faa3500"
             },
             {
-                "anchor": "0xd61a38a0f73beda90e8c1dfba731f65003742539f4260694f44e22cabef24a8e",
                 "bitfield": "0x01",
                 "validator_index": 2,
                 "signature": "0x6952f82a119253ee801eb605ce9934901c559e8d6e3dbe83b66d2536ed222fc380de878c7a049c3fda6b97db5d8bfec29306e13b85260bdda3d06ab6e5e9910f"
             },
             {
-                "anchor": "0xd61a38a0f73beda90e8c1dfba731f65003742539f4260694f44e22cabef24a8e",
                 "bitfield": "0x01",
                 "validator_index": 3,
                 "signature": "0x401b9cc302e1ad78fb923c253a68a6ff6910fa9543ba6514306280bd1d60aba6ae53fb62ccf820890995e2353207bc246d4e96a87bcb70b5868e0833b8d47c0f"
             },
             {
-                "anchor": "0xd61a38a0f73beda90e8c1dfba731f65003742539f4260694f44e22cabef24a8e",
                 "bitfield": "0x01",
                 "validator_index": 4,
                 "signature": "0x600d7766ed525780a28871adea7889904774fda1f617d4486630833358efcab4170da8765b8813ae460838088a9e8cd15c9ab4f49a5d39856a4f41da7227a106"
             },
             {
-                "anchor": "0xd61a38a0f73beda90e8c1dfba731f65003742539f4260694f44e22cabef24a8e",
                 "bitfield": "0x01",
                 "validator_index": 5,
                 "signature": "0x4942a6759a26ac9b91afe69013c389f25a1e087ffb03bea0741ac002710e6bf3232d90c1d8299f37d2fe32883f7e95711b82800ad923d0279e5b1b526793b104"
