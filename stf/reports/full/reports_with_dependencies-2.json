@@ -17,7 +17,7 @@
                         "state_root": "0xb5462111962e9000c3822eb631e619bb091b2b5dac73816874c0243f392065fb",
                         "beefy_root": "0xc006121a8035c0600469b1b708c1ad794ac74b3dbebd9c494d3ca2a1659df705",
                         "lookup_anchor": "0x0537b8b8fc9dd52c40d02f2c960c184ae45c4d8c92946d551662ab45374f883d",
-                        "lookup_anchor_slot": 598,
+                        "lookup_anchor_slot": 601,
                         "lookup_anchor_state_root": "0x2831b9a7027ae89643aa9c534f52c20128885dce8028d4bf1a679e567a699e05",
                         "prerequisites": [
                             "0xc7e675b7e3450cf70d436172644faef291c2aa905b1fe81c068785cd6e1e44e5"
@@ -51,15 +51,15 @@
                 "signatures": [
                     {
                         "validator_index": 16,
-                        "signature": "0x4f8d258db8c4d2b8aa9935574e166fc3bc8eacf0b9d0ebd6a5debc52aa5108c42cde5ba753405e0b8eba080e2244371c4200dfb928eca3a07015ea5f2d8c3008"
+                        "signature": "0x89454c7c7739efc9e25d5bb0dc0904d5960b4ae4360574cfaaaf5cc1221810b390cbab28822bd40201f1b894e32043aae3a43fdfa22015794bb7a2ccfe0ca10b"
                     },
                     {
                         "validator_index": 450,
-                        "signature": "0x600594e4a423c940cbe07523a0d678bd9a5163639f5b2f4ac6fb0dee473deabcd4ae12cf81c136ec0bb693825d1ee92cbfa240fa8d17a47649bde6da523e8c0e"
+                        "signature": "0x123641e88c740811699fc4e077440f8dbef751762cb59d5f58dfbcc15ad89a2c44676c869cdf1754b12d32e060f61eb4b9f272cb997ac84c0945c7e283fc4701"
                     },
                     {
                         "validator_index": 1014,
-                        "signature": "0x3ab3ceda5fdf8dbf3aa079fded31b30dfd21208674c6d2a61b9545d22babfd46d08e5a8a6c9eebc9b0aafe0c3cb1c0944d08e7b2fe6edc995d098c65537b200c"
+                        "signature": "0xb2c98615a9492aaa27f3c9b96c4fc853a93cb8461654e4b5ee99b6976f06ba110574d4836820934eb86e106927c88351a1d09852b1565e10f95e0bb5c2181c0f"
                     }
                 ]
             },
@@ -79,7 +79,7 @@
                         "state_root": "0xb5462111962e9000c3822eb631e619bb091b2b5dac73816874c0243f392065fb",
                         "beefy_root": "0xc006121a8035c0600469b1b708c1ad794ac74b3dbebd9c494d3ca2a1659df705",
                         "lookup_anchor": "0x0537b8b8fc9dd52c40d02f2c960c184ae45c4d8c92946d551662ab45374f883d",
-                        "lookup_anchor_slot": 598,
+                        "lookup_anchor_slot": 601,
                         "lookup_anchor_state_root": "0x2831b9a7027ae89643aa9c534f52c20128885dce8028d4bf1a679e567a699e05",
                         "prerequisites": [
                             "0x63c03371b9dad9f1c60473ec0326c970984e9c90c0b5ed90eba6ada471ba4d86"
@@ -113,15 +113,15 @@
                 "signatures": [
                     {
                         "validator_index": 624,
-                        "signature": "0xa4ffce2a63f347b9a4793f03cfc0b7a537cc9a6c17720124d1d0a7bef4cd2a10d3d41624e61ecca9c66cdfb8b924ece00eda1b08176a01c2736f8ed8f5af9706"
+                        "signature": "0x6db208e89ef8d28340f075d1fd69237498b01000d3fe86957737887ad5ba680fbaed6600d7d6b110e38590d33984899ed45d0998784e0b6508b03650324e650a"
                     },
                     {
                         "validator_index": 664,
-                        "signature": "0x61bfdf417176dcb20f2b599cbe70ffcee78fbb6502c4b711a7bc4ea7fc7e6f29746ddff86943fbbed8f4daa33b58de13c17c160c82f19dcf1bcb9cef1aa23701"
+                        "signature": "0x28fda35f3fb6e903502023bed5d72632a66db53e4b6bb7481f7f9ecdcdbc7992d6295a95f73424df6044414ab5c84f11290559524a77d9ff3218730aae49a902"
                     },
                     {
                         "validator_index": 698,
-                        "signature": "0x025db85d4779abed59a3bc4e098665808f6a4dc4309b9eb8096c16d84d6c832177a8d2d85446dcb17c68633bb1709e14aa5b29474505733708e714e8d7c8290c"
+                        "signature": "0x8ec9d1911fc674b35d2ac4440cb7e09e178693bedd8fb6c92b400f723dda9bab168a76ddffa76229424adcc28a2c7e01a4cb5826e1f54e4f8db6e822f1f63f08"
                     }
                 ]
             }
@@ -13847,10 +13847,7 @@
                     "service": {
                         "version": 0,
                         "code_hash": "0x6470fd21983eae8d706f1edd5e2dc5afe095980f8fb7bd4ebfd33550d8730246",
-                        "supervisor": 0,
-                        "supervisor_creation_slot": 0,
                         "balance": 20219,
-                        "supervisor_balance": 0,
                         "min_item_gas": 10,
                         "min_memo_gas": 10,
                         "bytes": 19999,
@@ -17318,7 +17315,7 @@
                             "state_root": "0xb5462111962e9000c3822eb631e619bb091b2b5dac73816874c0243f392065fb",
                             "beefy_root": "0xc006121a8035c0600469b1b708c1ad794ac74b3dbebd9c494d3ca2a1659df705",
                             "lookup_anchor": "0x0537b8b8fc9dd52c40d02f2c960c184ae45c4d8c92946d551662ab45374f883d",
-                            "lookup_anchor_slot": 598,
+                            "lookup_anchor_slot": 601,
                             "lookup_anchor_state_root": "0x2831b9a7027ae89643aa9c534f52c20128885dce8028d4bf1a679e567a699e05",
                             "prerequisites": [
                                 "0xc7e675b7e3450cf70d436172644faef291c2aa905b1fe81c068785cd6e1e44e5"
@@ -17352,15 +17349,15 @@
                     "signatures": [
                         {
                             "validator_index": 16,
-                            "signature": "0x4f8d258db8c4d2b8aa9935574e166fc3bc8eacf0b9d0ebd6a5debc52aa5108c42cde5ba753405e0b8eba080e2244371c4200dfb928eca3a07015ea5f2d8c3008"
+                            "signature": "0x89454c7c7739efc9e25d5bb0dc0904d5960b4ae4360574cfaaaf5cc1221810b390cbab28822bd40201f1b894e32043aae3a43fdfa22015794bb7a2ccfe0ca10b"
                         },
                         {
                             "validator_index": 450,
-                            "signature": "0x600594e4a423c940cbe07523a0d678bd9a5163639f5b2f4ac6fb0dee473deabcd4ae12cf81c136ec0bb693825d1ee92cbfa240fa8d17a47649bde6da523e8c0e"
+                            "signature": "0x123641e88c740811699fc4e077440f8dbef751762cb59d5f58dfbcc15ad89a2c44676c869cdf1754b12d32e060f61eb4b9f272cb997ac84c0945c7e283fc4701"
                         },
                         {
                             "validator_index": 1014,
-                            "signature": "0x3ab3ceda5fdf8dbf3aa079fded31b30dfd21208674c6d2a61b9545d22babfd46d08e5a8a6c9eebc9b0aafe0c3cb1c0944d08e7b2fe6edc995d098c65537b200c"
+                            "signature": "0xb2c98615a9492aaa27f3c9b96c4fc853a93cb8461654e4b5ee99b6976f06ba110574d4836820934eb86e106927c88351a1d09852b1565e10f95e0bb5c2181c0f"
                         }
                     ]
                 },
@@ -17383,7 +17380,7 @@
                             "state_root": "0xb5462111962e9000c3822eb631e619bb091b2b5dac73816874c0243f392065fb",
                             "beefy_root": "0xc006121a8035c0600469b1b708c1ad794ac74b3dbebd9c494d3ca2a1659df705",
                             "lookup_anchor": "0x0537b8b8fc9dd52c40d02f2c960c184ae45c4d8c92946d551662ab45374f883d",
-                            "lookup_anchor_slot": 598,
+                            "lookup_anchor_slot": 601,
                             "lookup_anchor_state_root": "0x2831b9a7027ae89643aa9c534f52c20128885dce8028d4bf1a679e567a699e05",
                             "prerequisites": [
                                 "0x63c03371b9dad9f1c60473ec0326c970984e9c90c0b5ed90eba6ada471ba4d86"
@@ -17417,15 +17414,15 @@
                     "signatures": [
                         {
                             "validator_index": 624,
-                            "signature": "0xa4ffce2a63f347b9a4793f03cfc0b7a537cc9a6c17720124d1d0a7bef4cd2a10d3d41624e61ecca9c66cdfb8b924ece00eda1b08176a01c2736f8ed8f5af9706"
+                            "signature": "0x6db208e89ef8d28340f075d1fd69237498b01000d3fe86957737887ad5ba680fbaed6600d7d6b110e38590d33984899ed45d0998784e0b6508b03650324e650a"
                         },
                         {
                             "validator_index": 664,
-                            "signature": "0x61bfdf417176dcb20f2b599cbe70ffcee78fbb6502c4b711a7bc4ea7fc7e6f29746ddff86943fbbed8f4daa33b58de13c17c160c82f19dcf1bcb9cef1aa23701"
+                            "signature": "0x28fda35f3fb6e903502023bed5d72632a66db53e4b6bb7481f7f9ecdcdbc7992d6295a95f73424df6044414ab5c84f11290559524a77d9ff3218730aae49a902"
                         },
                         {
                             "validator_index": 698,
-                            "signature": "0x025db85d4779abed59a3bc4e098665808f6a4dc4309b9eb8096c16d84d6c832177a8d2d85446dcb17c68633bb1709e14aa5b29474505733708e714e8d7c8290c"
+                            "signature": "0x8ec9d1911fc674b35d2ac4440cb7e09e178693bedd8fb6c92b400f723dda9bab168a76ddffa76229424adcc28a2c7e01a4cb5826e1f54e4f8db6e822f1f63f08"
                         }
                     ]
                 },
@@ -31014,10 +31011,7 @@
                     "service": {
                         "version": 0,
                         "code_hash": "0x6470fd21983eae8d706f1edd5e2dc5afe095980f8fb7bd4ebfd33550d8730246",
-                        "supervisor": 0,
-                        "supervisor_creation_slot": 0,
                         "balance": 20219,
-                        "supervisor_balance": 0,
                         "min_item_gas": 10,
                         "min_memo_gas": 10,
                         "bytes": 19999,

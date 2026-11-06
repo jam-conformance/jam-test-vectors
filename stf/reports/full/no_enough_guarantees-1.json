@@ -17,7 +17,7 @@
                         "state_root": "0xb5462111962e9000c3822eb631e619bb091b2b5dac73816874c0243f392065fb",
                         "beefy_root": "0xc006121a8035c0600469b1b708c1ad794ac74b3dbebd9c494d3ca2a1659df705",
                         "lookup_anchor": "0x0537b8b8fc9dd52c40d02f2c960c184ae45c4d8c92946d551662ab45374f883d",
-                        "lookup_anchor_slot": 597,
+                        "lookup_anchor_slot": 601,
                         "lookup_anchor_state_root": "0x2831b9a7027ae89643aa9c534f52c20128885dce8028d4bf1a679e567a699e05",
                         "prerequisites": []
                     },
@@ -49,7 +49,7 @@
                 "signatures": [
                     {
                         "validator_index": 16,
-                        "signature": "0x33e23093b594df42a104e1c5c6717ef4f8b68ba1834a5fcb0176f6caaec922f7fc025311387632ec056590fc5ad17a7fafbf62228a61f30e5f2b186ce6f56402"
+                        "signature": "0x0db6155ad4ef11c720910f3b2cff964e9c4504faffa7acd1c777c1263a5b51168811f8ce6d45fb9bbd747a9d41c827fd04ca5adeb9891bc08154ce27938bce06"
                     }
                 ]
             }
@@ -13773,10 +13773,7 @@
                     "service": {
                         "version": 0,
                         "code_hash": "0x6470fd21983eae8d706f1edd5e2dc5afe095980f8fb7bd4ebfd33550d8730246",
-                        "supervisor": 0,
-                        "supervisor_creation_slot": 0,
                         "balance": 20219,
-                        "supervisor_balance": 0,
                         "min_item_gas": 10,
                         "min_memo_gas": 10,
                         "bytes": 19999,
@@ -30791,10 +30788,7 @@
                     "service": {
                         "version": 0,
                         "code_hash": "0x6470fd21983eae8d706f1edd5e2dc5afe095980f8fb7bd4ebfd33550d8730246",
-                        "supervisor": 0,
-                        "supervisor_creation_slot": 0,
                         "balance": 20219,
-                        "supervisor_balance": 0,
                         "min_item_gas": 10,
                         "min_memo_gas": 10,
                         "bytes": 19999,

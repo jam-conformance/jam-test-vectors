@@ -16,9 +16,9 @@
                         "anchor_slot": 36,
                         "state_root": "0xf17c8719ed43fc33c3b308dc14bf1f4aba37937e9b9787aba3f32f2053badec2",
                         "beefy_root": "0x2c353320948478748e13fd85a53cc31300e8eead0bf0cb3c2c525de6981e6987",
-                        "lookup_anchor": "0x5092761b418ee021bb2d2490f6d5c817d8144bdcfc5f43e943ac567c5a75e351",
+                        "lookup_anchor": "0x37fe33f96de26f26d8c256e3b5baed0fbc28e1824f1844e0e1417b5342863740",
                         "lookup_anchor_slot": 13,
-                        "lookup_anchor_state_root": "0x5724b1269fab7e8a3bbd5ded44c6214f149df9e83ec3e947a30afa3158e5d3e3",
+                        "lookup_anchor_state_root": "0xe192165a13296d1b75224380e38a330f0597ea05e753c9f751059bc2b7ed9278",
                         "prerequisites": []
                     },
                     "core_index": 0,
@@ -49,15 +49,15 @@
                 "signatures": [
                     {
                         "validator_index": 1,
-                        "signature": "0x7f4db3ad461ea4a1b0a322c02e41f4f0ac2f61a0f34b2bb841e6e6e847403faf68bd156b3803f1577748622420c4827f7819ca7456de6b583532ff3b1d9ff006"
+                        "signature": "0x59381f03840e432bc0b859b9f6b1225d08e8b84ae5e2eb0254f8d81f65bf190168c100260e14fbc94eb17924793eeeed9d1abc2549a74f1b3defdbe5752e9b0f"
                     },
                     {
                         "validator_index": 4,
-                        "signature": "0x6185404d9ae7335946988806341d0498ac8158f3ca3fca1f8e6f74f97f5e636ad0f55b9e18a88bd9d2e3c1c4fe1b9126fed673da008228376d18f1fc41ee5006"
+                        "signature": "0x497758ffbba5f56df3797f254992146581bcdad6512e478f2857c5fa5558a8857b5359ee32459ae70878ad7d43bde043372ce70ac791669944060a7b75de170b"
                     },
                     {
                         "validator_index": 5,
-                        "signature": "0xa0cb545c9e09f5970c3c3fea49a619093757dc638591fd5dab20b59096235824f3d2da03a46168d1a9e509d5c84218b7b5352b0518c8cd827b2d2b51bb54ba0d"
+                        "signature": "0x2d6fd54a08fa0972dee742f44b469eef1b38f5f9e6dc51362d3757447e5f81a195e8069396b7a0d036ca25ee1ea3be91e2cc1986f5d6f3f8c9a3c9bb2e93d707"
                     }
                 ]
             }
@@ -256,10 +256,7 @@
                     "service": {
                         "version": 0,
                         "code_hash": "0x6470fd21983eae8d706f1edd5e2dc5afe095980f8fb7bd4ebfd33550d8730246",
-                        "supervisor": 0,
-                        "supervisor_creation_slot": 0,
                         "balance": 20219,
-                        "supervisor_balance": 0,
                         "min_item_gas": 10,
                         "min_memo_gas": 10,
                         "bytes": 19999,
@@ -486,10 +483,7 @@
                     "service": {
                         "version": 0,
                         "code_hash": "0x6470fd21983eae8d706f1edd5e2dc5afe095980f8fb7bd4ebfd33550d8730246",
-                        "supervisor": 0,
-                        "supervisor_creation_slot": 0,
                         "balance": 20219,
-                        "supervisor_balance": 0,
                         "min_item_gas": 10,
                         "min_memo_gas": 10,
                         "bytes": 19999,

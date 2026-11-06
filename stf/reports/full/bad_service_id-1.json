@@ -17,7 +17,7 @@
                         "state_root": "0xb5462111962e9000c3822eb631e619bb091b2b5dac73816874c0243f392065fb",
                         "beefy_root": "0xc006121a8035c0600469b1b708c1ad794ac74b3dbebd9c494d3ca2a1659df705",
                         "lookup_anchor": "0x0537b8b8fc9dd52c40d02f2c960c184ae45c4d8c92946d551662ab45374f883d",
-                        "lookup_anchor_slot": 597,
+                        "lookup_anchor_slot": 601,
                         "lookup_anchor_state_root": "0x2831b9a7027ae89643aa9c534f52c20128885dce8028d4bf1a679e567a699e05",
                         "prerequisites": []
                     },
@@ -49,15 +49,15 @@
                 "signatures": [
                     {
                         "validator_index": 16,
-                        "signature": "0xab574408c1021a99ba57eeb665a9431cae39406e1e67b6b0f1679bcf605a5529033453dc8095a8524e8eb3d512f9efe75fef49f799938e6e8f8d934f1a7f7202"
+                        "signature": "0x8536254d4e0b3819a22064ab45cade31d115c84588aa34d8827ee3c4de67eaaf5940e498dd359ea7a734994a060fd1e85801a1924ffa4b04ff97905d2108eb06"
                     },
                     {
                         "validator_index": 450,
-                        "signature": "0x5c2526c2f44160e27f405fd28d0aff2c54b544eb58948564b067c6a0be40d8d2539f9ea8f6380fc6c7c5df4f5a9b0cd2abbf65f7e9dd2db477337dbf4974e30c"
+                        "signature": "0x04bb2d7dfb215fa05591f1771a26a9eac9e8cc26630ade650c7fe80acb101578ae13b713827ee88d192f1aeb4d5ba7db27f76461a8d18335f800e7810b63dd0e"
                     },
                     {
                         "validator_index": 1014,
-                        "signature": "0x83630210e0a1a0d2d72e71aa2033b7a715ada6bca6684bccaef8b6ab2f894a3a42bbbb1d73d094c54fd951f800e01723b85cde91994868d0e99327f0e9659508"
+                        "signature": "0x797d0aef86cf0a20c91dbf013a763d7fb980ed537eb94be1137f076486d4f23a49fdd151f33dbda44dab37e6e45f298a1d34f11f86cd78d1d06695714cfe3e0e"
                     }
                 ]
             }
@@ -13781,10 +13781,7 @@
                     "service": {
                         "version": 0,
                         "code_hash": "0x6470fd21983eae8d706f1edd5e2dc5afe095980f8fb7bd4ebfd33550d8730246",
-                        "supervisor": 0,
-                        "supervisor_creation_slot": 0,
                         "balance": 20219,
-                        "supervisor_balance": 0,
                         "min_item_gas": 10,
                         "min_memo_gas": 10,
                         "bytes": 19999,
@@ -30799,10 +30796,7 @@
                     "service": {
                         "version": 0,
                         "code_hash": "0x6470fd21983eae8d706f1edd5e2dc5afe095980f8fb7bd4ebfd33550d8730246",
-                        "supervisor": 0,
-                        "supervisor_creation_slot": 0,
                         "balance": 20219,
-                        "supervisor_balance": 0,
                         "min_item_gas": 10,
                         "min_memo_gas": 10,
                         "bytes": 19999,
