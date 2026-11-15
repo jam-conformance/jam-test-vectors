@@ -74,6 +74,27 @@ tests that verify the invalidation of assignments following a verdict.
   - Bad verdict with a single culprit.
 - [progress_with_bad_votes_count-1](tiny/progress_with_bad_votes_count-1.json) 🔴
   - Verdict with one vote less than the supermajority of the signing validators set.
+- [culprit_not_in_bad_set-1](tiny/culprit_not_in_bad_set-1.json) 🔴
+  - Culprit relative to a report without any verdict.
+- [culprit_in_prior_bad_set-1](tiny/culprit_in_prior_bad_set-1.json) 🟢
+  - Culprit relative to a report with a bad verdict from a previous block.
+- [culprit_on_good_report-1](tiny/culprit_on_good_report-1.json) 🔴
+  - Good verdict with one fault, plus a culprit relative to the same report.
+- [fault_on_unjudged_report-1](tiny/fault_on_unjudged_report-1.json) 🔴
+  - Fault voting invalid, relative to a report without any verdict.
+- [fault_on_wonky_report-1](tiny/fault_on_wonky_report-1.json) 🔴
+  - Fault voting invalid, relative to a report with a wonky verdict from a previous block.
+- [fault_on_unjudged_report-2](tiny/fault_on_unjudged_report-2.json) 🔴
+  - Fault voting valid, relative to a report without any verdict.
+- [fault_on_wonky_report-2](tiny/fault_on_wonky_report-2.json) 🔴
+  - Fault voting valid, relative to a report with a wonky verdict from a previous block.
+- [fault_on_prior_good_report-1](tiny/fault_on_prior_good_report-1.json) 🟢
+  - Fault voting invalid, relative to a report with a good verdict from a previous block.
+- [fault_agrees_with_prior_bad_report-1](tiny/fault_agrees_with_prior_bad_report-1.json) 🔴
+  - Fault voting invalid, relative to a report with a bad verdict from a previous block.
+  - The vote matches the verdict.
+- [fault_on_prior_bad_report-1](tiny/fault_on_prior_bad_report-1.json) 🟢
+  - Fault voting valid, relative to a report with a bad verdict from a previous block.
 
 ## Full Vectors
 

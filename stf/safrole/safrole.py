@@ -80,5 +80,6 @@ class SafroleTestVector(StfTestVector):
         3: "bad_ticket_proof",
         4: "bad_ticket_attempt",
         5: "reserved",
-        6: "duplicate_ticket"
+        6: "duplicate_ticket",
+        7: "useless_ticket"
     }
