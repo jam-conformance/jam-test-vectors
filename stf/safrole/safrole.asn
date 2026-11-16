@@ -62,12 +62,10 @@ ErrorCode ::= ENUMERATED {
     bad-ticket-proof (3),
     -- Invalid ticket attempt value.
     bad-ticket-attempt (4),
-    -- Reserved
-    reserved (5),
-    -- Found a ticket duplicate.
-    duplicate-ticket (6),
     -- Submitted ticket not retained in the posterior accumulator.
-    useless-ticket (7)
+    useless-ticket (5),
+    -- Found a ticket duplicate.
+    duplicate-ticket (6)
 }
 
 Output ::= CHOICE {
