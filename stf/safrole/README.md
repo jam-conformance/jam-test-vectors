@@ -107,6 +107,18 @@ Most of these differences aim to provide a clear and concise protocol specificat
   - One of the keys to be used is invalidated (zeroed out) because it belongs to the (posterior) offenders list.
   - One of the keys is just invalid (i.e. it can't be decoded into a valid Bandersnatch point).
   - Both the invalid keys are replaced with the padding point during ring commitment computation.
+- [tickets_with_new_offender_nulled-1](./tiny/tickets-with-new-offender-nulled-1.json) 🟢
+  - Publish a ticket on epoch change. One of the new keys belongs to the (posterior) offenders
+    list and is zeroed out.
+  - Ticket proof against the recomputed ring commitment.
+  - Template is `enact-epoch-change-with-padding-1`, with its undecodable key replaced by a valid one.
+- [tickets_with_prior_ring-1](./tiny/tickets-with-prior-ring-1.json) 🔴
+  - Same block. Ticket proof against the prior epoch ring commitment.
+- [ticket_not_retained-1](./tiny/ticket-not-retained-1.json) 🔴
+  - Publish a ticket with a full accumulator. The ticket id is above all the accumulated ones,
+    so the ticket would be dropped.
+- [ticket_retained-1](./tiny/ticket-retained-1.json) 🟢
+  - Same ticket. One accumulated id is above the ticket id and is removed to make space for it.
 
 ## Full Vectors
 

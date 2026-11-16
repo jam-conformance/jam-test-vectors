@@ -42,6 +42,12 @@ referencing the corresponding `CoreAuthorizer`s extracted from $E_G$.
   - Guarantees for core 1.
   - Shift left authentications for core 0 pool.
   - Consume authentication for core 1 pool.
+- [auth_pool_interleaved_duplicate-1](tiny/auth_pool_interleaved_duplicate-1.json)
+  - Guarantee for core 0. The pool holds the used authorizer twice, with another one in between.
+  - Only the left-most copy is consumed.
+- [auth_pool_full_alternating-1](tiny/auth_pool_full_alternating-1.json)
+  - Guarantee for core 0. Full pool alternating another authorizer with the used one.
+  - Only the left-most copy is consumed, so the result differs from a plain shift.
 
 ## Full Vectors
 

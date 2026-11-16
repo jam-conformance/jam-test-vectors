@@ -65,7 +65,9 @@ ErrorCode ::= ENUMERATED {
     -- Reserved
     reserved (5),
     -- Found a ticket duplicate.
-    duplicate-ticket (6)
+    duplicate-ticket (6),
+    -- Submitted ticket not retained in the posterior accumulator.
+    useless-ticket (7)
 }
 
 Output ::= CHOICE {
