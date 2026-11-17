@@ -41,6 +41,41 @@ is not defined by the GP and is charged as an unknown host call: **1000** gas.
 - [Fuzzy](./fuzzy): no-safrole, fuzzy service, random fuzzy service profile, max 6 work item per report.
 - [Fuzzy Light](./fuzzy_light): no-safrole, fuzzy service, empty fuzzy service profile, max 1 work item per report.
 
+## Edge Traces
+
+Short traces that each target one rule, all from the fallback genesis. A rejected
+block leaves the post-state equal to the pre-state. Every 🔴 trace has a 🟢 one
+that differs only in the last block.
+
+Ready queue and pending availability (GP 0.8.0 eq. 11.41):
+
+- [ready_queue_duplicate](./ready_queue_duplicate) 🔴
+  - Block 1 reports packages X and P, P depending on X. Block 2 makes P available,
+    so P waits for X in the ready queue.
+  - Block 10 reports P again. X and P are out of recent history, and X timed out of
+    availability.
+- [ready_queue_prerequisite](./ready_queue_prerequisite) 🟢
+  - Same first 9 blocks. Block 10 reports X, which is only a dependency of a queued report.
+- [pending_prerequisite](./pending_prerequisite) 🟢
+  - Block 1 reports X. Block 8 reports P, depending on X.
+  - Block 10 reports X again. X is out of recent history and timed out of
+    availability, while P is still pending availability.
+
+Lookup anchor (GP 0.8.0 eq. 11.38). Block 4 carries one report. In the 🟢 trace its
+lookup anchor is block 2, and each 🔴 trace changes one field of it. The 🔴 traces
+need an importer that keeps the headers of earlier blocks, with their prior state
+roots, as a node does:
+
+- [lookup_anchor_ancestor](./lookup_anchor_ancestor) 🟢
+  - Hash and slot of block 2, and the state root after block 2 (the prior state root
+    in block 3's header).
+- [lookup_anchor_not_in_ancestry](./lookup_anchor_not_in_ancestry) 🔴
+  - A hash that is not in the ancestry, with the slot and state root of the 🟢 trace.
+- [lookup_anchor_wrong_slot](./lookup_anchor_wrong_slot) 🔴
+  - Slot 1 instead of 2.
+- [lookup_anchor_wrong_state_root](./lookup_anchor_wrong_state_root) 🔴
+  - The state root before block 2 instead of after it.
+
 ## Preimage Expunge Delay
 
 The GP defines a constant `D`, representing the number of timeslots after which
