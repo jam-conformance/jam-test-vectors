@@ -41,7 +41,7 @@ is not defined by the GP and is charged as an unknown host call: **1000** gas.
 - [Fuzzy](./fuzzy): no-safrole, fuzzy service, random fuzzy service profile, max 6 work item per report.
 - [Fuzzy Light](./fuzzy_light): no-safrole, fuzzy service, empty fuzzy service profile, max 1 work item per report.
 
-## Edge Traces
+## Single-Rule Traces
 
 Short traces that each target one rule, all from the fallback genesis. A rejected
 block leaves the post-state equal to the pre-state. Every 🔴 trace has a 🟢 one
