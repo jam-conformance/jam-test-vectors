@@ -31,7 +31,7 @@
                         "service_id": 0,
                         "code_hash": "0xa8ed4315e9ccfaedc812ab66141c96d171eb01eb64282c39189f495add8514e4",
                         "payload_hash": "0x9a00110a56ecaf8954ecc77d17076b4260ffd6844e83b2f35ee42aa17effc89e",
-                        "accumulate_gas": 3499800000,
+                        "accumulate_gas": 16449800000,
                         "result": {
                             "ok": "0x010402000000a8ed4315e9ccfaedc812ab66141c96d171eb01eb64282c39189f495add8514e40000"
                         },

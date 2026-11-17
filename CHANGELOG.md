@@ -32,6 +32,10 @@
   `preimages-too-big` (2) for the data limit. New preimages vector
   `preimages_max_count-1` with 256 items. No vector exceeds the data limit.
   (GP [#567](https://github.com/gavofyork/graypaper/pull/567))
+* Gas limits for 4.7 GHz reference hardware: `G_A` = 47,000,000,
+  `G_I` = 235,000,000, `G_R` = 23,500,000,000 and `G_T` = 16,450,000,000.
+  The tiny values do not change.
+  (GP [#587](https://github.com/gavofyork/graypaper/pull/587))
 
 ## [0.8.0] - 10-09-2026
 

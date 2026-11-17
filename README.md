@@ -68,6 +68,6 @@ tickets_per_validator: 2
 max_tickets_per_extrinsic: 16
 rotation_period: 10
 num_ec_pieces_per_segment: 6
-max_block_gas: 3500000000
-max_refine_gas: 5000000000
+max_block_gas: 16450000000
+max_refine_gas: 23500000000
 ```
