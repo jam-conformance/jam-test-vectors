@@ -36,6 +36,12 @@
   `G_I` = 235,000,000, `G_R` = 23,500,000,000 and `G_T` = 16,450,000,000.
   The tiny values do not change.
   (GP [#587](https://github.com/gavofyork/graypaper/pull/587))
+* Junior services: `ServiceInfo` carries `supervisor` and
+  `supervisor-creation-slot` after `code-hash`, and `supervisor-balance`
+  after `balance`. All accumulate and reports vectors change. New `supervisor`
+  host call at index 29. A service which is ejected and created again in one
+  invocation keeps the new account (`recreate_ejected_service*`).
+  (GP [#539](https://github.com/gavofyork/graypaper/pull/539))
 
 ## [0.8.0] - 10-09-2026
 
